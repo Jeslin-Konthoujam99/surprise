@@ -510,7 +510,7 @@
         /**********************
          * ✅ EDIT CONTENT HERE
          **********************/
-        const GF_NAME = "Your Love"; // e.g., "Macha" / "Sarah" / "Babe"
+        const GF_NAME = "Macha";
         const HERO_TEXT = "I made this little page just for you — because you deserve a love that feels warm, safe, and unforgettable.\nToday is my favorite reminder that loving you is the best part of my life.";
         const PROMISE_TEXT = "No matter how busy life gets, I’ll always choose you. I’ll listen, I’ll care, I’ll stay.\nAnd I’ll keep finding new ways to make you smile — not just today, but every day.";
 
@@ -585,7 +585,7 @@ You’ll always have me.`
         const LOVE_LETTER =
             `My love,
 
-Happy Valentine’s Day ❤️
+Happy Valentine’s Day My Love❤️
 
 If I could choose one place to be in the world,
 it would be next to you.
@@ -602,7 +602,7 @@ Today, tomorrow, and every day after —
 I’m yours.
 
 Forever,
-— Your Valentine 💘`;
+— Your Valentine(Paa) 💘`;
 
         /**********************
          * Page init
@@ -626,7 +626,8 @@ Forever,
         document.getElementById("todayDate").textContent = dateStr;
 
         // fun counter (not exact)
-        document.getElementById("dayCount").textContent = 365 + (d.getMonth() * 30 + d.getDate());
+        document.getElementById("dayCount").textContent = 365;
+
 
         // render gifts
         GIFTS.forEach((g, idx) => {
