@@ -465,7 +465,8 @@
                 <div class="right-card">
                     <div class="stat"><strong>🌹</strong> <span id="dayCount">365</span> reasons I love you</div>
                     <div class="stat"><strong>💞</strong> <span>∞</span> hugs waiting for you</div>
-                    <div class="stat"><strong>✨</strong> <span id="todayDate"></span> our special day</div>
+                    <div class="stat"><strong>✨</strong> <span id="todayDate">14 February 2026</span>our special day
+                    </div>
                 </div>
             </div>
         </header>
@@ -621,9 +622,11 @@ Forever,
         promiseTextEl.textContent = PROMISE_TEXT;
 
         // date
-        const d = new Date();
-        const dateStr = d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
-        document.getElementById("todayDate").textContent = dateStr;
+        document.getElementById("todayDate").textContent = "14 February 2026";
+
+        /* const d = new Date();
+         const dateStr = d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+         document.getElementById("todayDate").textContent = dateStr;*/
 
         // fun counter (not exact)
         document.getElementById("dayCount").textContent = 365;
